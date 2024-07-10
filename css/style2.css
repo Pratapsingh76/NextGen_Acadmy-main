@@ -1,0 +1,125 @@
+.header {
+    background-color:#000080;
+
+    padding: 50px;
+}
+
+.header .image-container img {
+    border-radius: 4px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 80px;
+    height: 350px;
+}
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.image-container {
+    margin-right: 80px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.text-container h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-container ol {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.btn-solid-lg {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-outline-lg {
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+.btn-solid-lg:hover, .btn-outline-lg:hover {
+    opacity: 0.8;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .image-container,
+    .text-container {
+        margin: 0 60px;
+        text-align: center;
+    }
+
+    .text-container {
+        margin-top: 20px;
+    }
+
+    .btn-solid-lg {
+        padding: 20px 40px;
+    }
+
+    .header .image-container img {
+        border-radius: 4px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+}
