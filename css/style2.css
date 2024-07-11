@@ -39,7 +39,7 @@
 }
 
 .btn-solid-lg {
-    background-color: #007bff;
+    background-color: #06A3DA;
     color: #fff;
     margin-right: 10px;
     padding: 15px 40px;
@@ -49,9 +49,10 @@
 
 .btn-outline-lg {
     border: 1px solid #007bff;
-    color: #007bff;
+    color: #06A3DA; 
     padding: 15px 40px;
     border-radius: 50px;
+    background-color: white;
 }
 
 .btn-solid-lg:hover, .btn-outline-lg:hover {
